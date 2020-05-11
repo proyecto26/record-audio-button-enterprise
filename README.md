@@ -13,7 +13,7 @@ Web Component built with [Stencil.js](https://github.com/ionic-team/stencil) for
 Do you want to see this web component in action? Check our demo projects for Angular, React, Vue, VanillaJS, etc, yay! 🎉
 
 <p align="center">
-  <img width="300px" alt="Record Audio Button" src="https://github.com/proyecto26/record-audio-button-enterprise/blob/master/img/demo-angular.png?raw=true">
+  <img width="400px" alt="Record Audio Button" src="https://github.com/proyecto26/record-audio-button-enterprise/blob/master/img/demo-angular.png?raw=true">
 </p>
 
 ## Usage 🎉
