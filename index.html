@@ -1,0 +1,43 @@
+<!doctype html><html dir="ltr" lang="en"><head> <meta charset="utf-8"> <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no"> <title>Record Audio Button</title> <meta name="format-detection" content="telephone=no"> <meta name="msapplication-tap-highlight" content="no"> <meta name="apple-mobile-web-app-capable" content="yes"> <meta name="apple-mobile-web-app-title" content="Record Audio Button"> <meta name="apple-mobile-web-app-status-bar-style" content="purple"> <link rel="stylesheet" href="./build/p-de61ca4f.css"> <link href="https://fonts.googleapis.com/css?family=Audiowide&amp;display=swap" rel="stylesheet"> <link href="https://fonts.googleapis.com/css?family=Tomorrow&amp;display=swap" rel="stylesheet"> <style>html, body {
+        height: 100%;
+      }
+      body {
+        margin: 0;
+      }
+
+      ion-app {
+        background-color: #252322;
+        padding: 0;
+        margin: 0;
+        align-items: center !important;
+        justify-content: center !important;
+      }
+
+      ion-footer {
+        max-width: 350px;
+        background-color: #7122FA;
+        border-radius: 35px;
+      }
+      ion-textarea {
+        margin: 0 !important;
+        background: #fff !important;
+        border: 1px solid #fff;
+        border-radius: 21px;
+        min-height: 40px;
+      }</style> </head> <body> <ion-app> <animatable-component autoplay="" animation="shake-left" iterations="2" easing="ease-in-out" duration="1000" delay="1000"> <ion-footer color="light"> <ion-grid> <ion-row> <ion-col size="auto" class="ion-align-self-center ion-text-center"> <ion-icon size="large" name="happy" color="light"></ion-icon></ion-col> <ion-col class="ion-no-padding"> <ion-grid> <ion-row> <ion-col class="ion-align-self-center"> <ion-textarea auto-grow="" maxlength="500"></ion-textarea></ion-col> <ion-col size="auto" class="ion-align-self-end"> <record-audio-button color="light" activated="false" disabled="false" show="" translucent="" type="submit" size="large" max-threshold="10" button-style="" button-class="" icon-name="mic" icon-size="large" icon-style="" icon-class="" icon-aria-label="" icon-ios="" icon-md="" icon-src="" scale-x="1.2" scale-y="1.2" width="55" height="55" max-width="90" duration="200" enable-logs="" enable-recording="" autoplay="" mime-type="audio/webm" time-slice="0" audio-bits-per-second="0" sample-rate="0" desired-samp-rate="0" buffer-size="0" number-of-audio-channels="0"></record-audio-button></ion-col> </ion-row> </ion-grid> </ion-col> </ion-row> </ion-grid> </ion-footer> </animatable-component> </ion-app> <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/web-animations/2.3.2/web-animations.min.js"></script> <script type="module" src="https://unpkg.com/@proyecto26/animatable-component@1.1.8/dist/animatable-component/animatable-component.esm.js"></script> <script nomodule="" src="https://unpkg.com/@proyecto26/animatable-component@1.1.8/dist/animatable-component/animatable-component.js"></script> <script type="module" src="./build/record-audio-button.esm.js"></script> <script nomodule="" src="./build/record-audio-button.js"></script> <script type="text/javascript">const recordAudioButton = document.querySelector('record-audio-button')
+
+    recordAudioButton.addEventListener('startRecording', function () {
+      console.log('*************** START RECORDING... ***************')
+    })
+
+    recordAudioButton.addEventListener('stopRecording', function (event) {
+      console.log('*************** STOP RECORDING... ***************', event.detail)
+    })
+
+    recordAudioButton.addEventListener('cancelRecording', function () {
+      console.info('*************** CANCEL RECORDING... ***************')
+    })
+
+    recordAudioButton.addEventListener('errorRecording', function (event) {
+      console.error('*************** ERROR RECORDING... ***************', event.detail)
+    })</script> </body></html>
