@@ -2,7 +2,7 @@
 
 # Record Audio Button
 
-Web Component built with [Stencil.js](https://github.com/ionic-team/stencil) for *Recording Audio* from **Web** using [Web RTC](https://developer.mozilla.org/docs/Web/API/WebRTC_API) and *Mobile* using native plugins, with a swipe gesture using [Ionic Animations](https://ionicframework.com/docs/utilities/animations) inspired by **WhatsApp**:
+Web Component built with [Stencil.js](https://github.com/ionic-team/stencil) for *Recording Audio* from **Web** using [Web RTC](https://developer.mozilla.org/docs/Web/API/WebRTC_API) and **Mobile** using native plugins, with a swipe gesture using [Ionic Animations](https://ionicframework.com/docs/utilities/animations) inspired by **WhatsApp**:
 
 ```html
 <record-audio-button autoplay enable-recording></record-audio-button>
