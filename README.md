@@ -198,6 +198,24 @@ new Vue({
 [_from stencil documentation_](https://github.com/ionic-team/stencil-site/blob/master/src/docs/framework-integration/vue.md)
 
 
+## Enterprise Support 💼
+
+This is an **enterprise product** — free for [Proyecto 26 sponsors](https://proyecto26.com/sponsors/).
+
+### Get Support
+- **Discord**: Join our [#enterprise-audio-button](https://discord.gg/MvBK46bC33) channel for dedicated support, feature requests, and direct access to the maintainer
+- **Issues**: Report bugs and request features on [GitHub Issues](https://github.com/proyecto26/record-audio-button-enterprise/issues)
+- **Sponsors**: Get priority support and access to the private repositories with full source code at [proyecto26.com/sponsors](https://proyecto26.com/sponsors/)
+
+### What Sponsors Get
+- Access to **private repositories** with full source code (`record-audio-button` + `record-audio-button-react`)
+- Priority bug fixes and feature requests
+- Direct support via Discord private channels
+- 1-on-1 meetings with the maintainer (Heroes tier+)
+
+[![Become a Sponsor](https://img.shields.io/badge/Become%20a-Sponsor-f2385a?style=for-the-badge&logo=github-sponsors)](https://github.com/sponsors/proyecto26)
+[![Join Discord](https://img.shields.io/badge/Join-Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white)](https://discord.gg/MvBK46bC33)
+
 ## Credits 👍
 
 - Icons made by `Good Ware` from www.flaticon.com
